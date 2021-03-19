@@ -30,12 +30,13 @@ class ViewController: UIViewController {
         let num2 = Int.random(in: 1...5)
         let num3 = Int.random(in: 1...5)
         let num4 = Int.random(in: 1...5)
+        let num5 = Int.random(in: 1...5)
         
         carta1ImageView.image = imagenes[num]
         carta2ImageView.image = imagenes[num2]
         carta3ImageView.image = imagenes[num3]
-        carta4ImageView.image = imagenes[num]
-        carta5ImgaeView.image = imagenes[num]
+        carta4ImageView.image = imagenes[num4]
+        carta5ImgaeView.image = imagenes[num5]
         
     }
     

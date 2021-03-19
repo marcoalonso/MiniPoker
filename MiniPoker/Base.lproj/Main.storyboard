@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -14,71 +14,102 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MiniPoker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondoMesa" translatesAutoresizingMaskIntoConstraints="NO" id="GYI-d7-1cS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="akl-PK-fp3">
-                                <rect key="frame" x="97" y="299" width="69" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vegas" translatesAutoresizingMaskIntoConstraints="NO" id="UoT-G1-4Mw">
-                                <rect key="frame" x="87" y="59" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="dVS-ZU-0eP">
-                                <rect key="frame" x="20" y="299" width="69" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="3Sy-D2-xxZ">
-                                <rect key="frame" x="174" y="299" width="69" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="uUg-DD-wej">
-                                <rect key="frame" x="251" y="299" width="69" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="2gu-Yy-Mb5">
-                                <rect key="frame" x="328" y="299" width="69" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyd-hh-qxK">
-                                <rect key="frame" x="132" y="483" width="150" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="      Jugar      ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="jugarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r7c-LU-aqh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biE-rr-5m8">
-                                <rect key="frame" x="148" y="597" width="134" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76055308730000004" green="1" blue="0.68737538629999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="    Apostar    "/>
-                                <connections>
-                                    <segue destination="kTc-ri-oF4" kind="presentation" modalPresentationStyle="fullScreen" id="hkM-bo-WLY"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nfv-UH-HVw" userLabel="SV Principal">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="587"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" image="vegas" translatesAutoresizingMaskIntoConstraints="NO" id="UoT-G1-4Mw">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="279.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="M4F-Tk-USy" userLabel="SV Cartas">
+                                        <rect key="frame" x="2.5" y="299.5" width="370" height="105"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="dVS-ZU-0eP">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="105"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="105" id="EnT-Rm-Yau"/>
+                                                    <constraint firstAttribute="width" constant="70" id="FCC-ck-rzU"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="akl-PK-fp3">
+                                                <rect key="frame" x="75" y="0.0" width="70" height="105"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="3Sy-D2-xxZ">
+                                                <rect key="frame" x="150" y="0.0" width="70" height="105"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="uUg-DD-wej">
+                                                <rect key="frame" x="225" y="0.0" width="70" height="105"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reversoBaraja" translatesAutoresizingMaskIntoConstraints="NO" id="2gu-Yy-Mb5">
+                                                <rect key="frame" x="300" y="0.0" width="70" height="105"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyd-hh-qxK">
+                                        <rect key="frame" x="123.5" y="424.5" width="128" height="45"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="rRo-2p-9ac"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="      Jugar      ">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="jugarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r7c-LU-aqh"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tu apuesta actual es de: $0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGS-DY-kOZ">
+                                        <rect key="frame" x="29" y="489.5" width="317.5" height="32.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biE-rr-5m8">
+                                        <rect key="frame" x="127.5" y="542" width="120" height="45"/>
+                                        <color key="backgroundColor" red="0.76055308730000004" green="1" blue="0.68737538629999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="i9S-WA-5I8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="    Apostar    "/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="kTc-ri-oF4" kind="presentation" modalPresentationStyle="fullScreen" id="hkM-bo-WLY"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nfv-UH-HVw" secondAttribute="trailing" id="0rA-mE-1to"/>
+                            <constraint firstItem="nfv-UH-HVw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2N8-Y9-JE3"/>
+                            <constraint firstItem="GYI-d7-1cS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8Nb-Nq-4fK"/>
+                            <constraint firstItem="nfv-UH-HVw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Da8-Io-1zi"/>
                             <constraint firstItem="GYI-d7-1cS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LQz-Xq-hCB"/>
+                            <constraint firstAttribute="bottom" secondItem="GYI-d7-1cS" secondAttribute="bottom" id="LSj-M3-4VQ"/>
                             <constraint firstItem="GYI-d7-1cS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RYP-SJ-QAS"/>
+                            <constraint firstAttribute="bottom" secondItem="nfv-UH-HVw" secondAttribute="bottom" constant="80" id="V7A-RN-FfK"/>
+                            <constraint firstItem="GYI-d7-1cS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iIP-DJ-xci"/>
                             <constraint firstItem="GYI-d7-1cS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ncR-T2-Acr"/>
                             <constraint firstAttribute="bottom" secondItem="GYI-d7-1cS" secondAttribute="bottom" id="qat-aE-lj5"/>
+                            <constraint firstItem="GYI-d7-1cS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ymT-Gb-kQB"/>
                         </constraints>
                     </view>
                     <connections>
@@ -93,24 +124,71 @@
             </objects>
             <point key="canvasLocation" x="-27.536231884057973" y="70.982142857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Apuesta View Controller-->
         <scene sceneID="WlW-Yi-sc2">
             <objects>
-                <viewController id="kTc-ri-oF4" sceneMemberID="viewController">
+                <viewController id="kTc-ri-oF4" customClass="ApuestaViewController" customModule="MiniPoker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Efw-X0-Rjc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cuanto deseas apostar?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yt-rA-InY">
+                                <rect key="frame" x="60" y="44" width="311" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apuesta" translatesAutoresizingMaskIntoConstraints="NO" id="Rp6-nA-Ikc">
+                                <rect key="frame" x="20" y="230" width="331" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ingresa el monto a apostar $" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q9H-BG-PBl">
+                                <rect key="frame" x="60" y="101" width="291" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTd-hi-Sh5">
+                                <rect key="frame" x="47" y="163" width="281" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.76055308730000004" green="1" blue="0.68737538629999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Aceptar"/>
+                                <connections>
+                                    <action selector="apostarButton:" destination="kTc-ri-oF4" eventType="touchUpInside" id="glE-uu-kzd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVK-fu-zYO">
+                                <rect key="frame" x="120" y="535" width="171" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88627451660000001" green="0.69411766529999996" blue="0.32156863810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="    Jugar    ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="jugarButton:" destination="kTc-ri-oF4" eventType="touchUpInside" id="wnk-Ao-ok0"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="Ogn-G5-9d8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="twg-00-mk3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="4Gi-ws-xVd"/>
+                    <connections>
+                        <outlet property="aceptarButton" destination="RTd-hi-Sh5" id="Eo0-uw-lLN"/>
+                        <outlet property="apuestaLabel" destination="4Yt-rA-InY" id="dci-ai-iJc"/>
+                        <outlet property="cantidadApuestaTextField" destination="Q9H-BG-PBl" id="ISc-fF-o4a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ktc-bK-udZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="71"/>
+            <point key="canvasLocation" x="679.20000000000005" y="70.614692653673174"/>
         </scene>
     </scenes>
     <resources>
+        <image name="apuesta" width="594" height="391"/>
         <image name="fondoMesa" width="626" height="440"/>
         <image name="reversoBaraja" width="703" height="1102"/>
         <image name="vegas" width="637" height="455"/>
