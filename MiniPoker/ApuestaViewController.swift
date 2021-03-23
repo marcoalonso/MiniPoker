@@ -14,6 +14,7 @@ class ApuestaViewController: UIViewController {
     @IBOutlet weak var aceptarButton: UIButton!
     @IBOutlet weak var apuestaLabel: UILabel!
     @IBOutlet weak var cantidadApuestaTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,10 +30,11 @@ class ApuestaViewController: UIViewController {
             //cuerpo del closure
             print("Aceptaste la apuesta")
             //ejecutar mas codigo
-            self.apuestaLabel.text = "Apostaste la cantida de : \(self.cantidadApuestaTextField.text!)"
+            self.apuesta = apuestaLabel.text
+            self.apuestaLabel.text = "Tu apuesta es de :$ \(self.cantidadApuestaTextField.text!) pesos"
             //ocultar el boton y el textField
             cantidadApuestaTextField.isHidden = true
-            aceptarButton.isHidden = true
+            aceptarButton.isEnabled = false
             
         }
         
@@ -49,8 +51,6 @@ class ApuestaViewController: UIViewController {
         
     }
     
-    @IBAction func jugarButton(_ sender: UIButton) {
-        
-    }
+   
     
 }

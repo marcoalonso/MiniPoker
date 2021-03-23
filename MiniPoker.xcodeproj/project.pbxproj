@@ -13,6 +13,7 @@
 		600A6CC22600F8000019A691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A6CC02600F8000019A691 /* Main.storyboard */; };
 		600A6CC42600F8010019A691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600A6CC32600F8010019A691 /* Assets.xcassets */; };
 		600A6CC72600F8010019A691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600A6CC52600F8010019A691 /* LaunchScreen.storyboard */; };
+		60289FA5260A2DEB00A26CD4 /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60289FA4260A2DEB00A26CD4 /* PruebaViewController.swift */; };
 		6050E11526039948009238CD /* ApuestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6050E11426039948009238CD /* ApuestaViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		600A6CC32600F8010019A691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600A6CC62600F8010019A691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600A6CC82600F8010019A691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60289FA4260A2DEB00A26CD4 /* PruebaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaViewController.swift; sourceTree = "<group>"; };
 		6050E11426039948009238CD /* ApuestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApuestaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				600A6CC52600F8010019A691 /* LaunchScreen.storyboard */,
 				600A6CC82600F8010019A691 /* Info.plist */,
 				6050E11426039948009238CD /* ApuestaViewController.swift */,
+				60289FA4260A2DEB00A26CD4 /* PruebaViewController.swift */,
 			);
 			path = MiniPoker;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				600A6CBF2600F8000019A691 /* ViewController.swift in Sources */,
 				600A6CBB2600F8000019A691 /* AppDelegate.swift in Sources */,
 				600A6CBD2600F8000019A691 /* SceneDelegate.swift in Sources */,
+				60289FA5260A2DEB00A26CD4 /* PruebaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
